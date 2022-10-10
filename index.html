@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Site de login do League of Legends.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/css/style.min.css">
+    <link rel="shortcut icon" href="./src/assets/img/favicon.webp" type="image/x-icon">
+    <title>Riot Games</title>
+  </head>
+
+  <body>
+    <main>
+      <article>
+        <section class="container">
+          <div>
+            <img src="./src/assets/img/logo.webp" class="logo" alt="Riot Games" width="130" height="39">
+          </div>
+
+          <div class="container-form">
+            <h1>Fazer login</h1>
+
+            <form action="./">
+              <label>
+                <span>Nome de usuário</span>
+                <input type="text" class="input usario" required maxlength="30">
+              </label>
+              
+              <label>
+                <span>Senha</span>
+                <input type="password" class="input senha" required maxlength="30">
+              </label>
+              
+              <div class="redes-sociais">
+                <a href="#facebook">
+                  <img src="./src/assets/img/facebook-icon.webp" alt="Facebook" width="21" height="21">
+                </a>
+                
+                <a href="#google">
+                  <img src="./src/assets/img/google-icon.webp" alt="Google" width="21" height="21">
+                </a>
+                
+                <a href="#apple">
+                  <img src="./src/assets/img/apple-icon.webp" alt="Apple" width="21" height="25">
+                </a>
+              </div>
+
+              <div class="checkbox">
+                <input type="checkbox" id="check">
+                <label for="check">Manter login</label>
+              </div>
+            </div>
+
+            <button type="submit" disabled>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/>
+              </svg>
+            </button>
+          </form>
+
+          <div class="conta">
+            <a href="#">Não consegue iniciar sessão?</a>
+            <a href="#">Criar conta</a>
+          </div>
+        </section>
+
+        <aside class="container-wallpaper">
+          <img src="./src/assets/img/wallpaper.webp" class="wallpaper" alt="Wallpaper">
+        </aside>
+      </article>
+    </main>
+
+    <script src="./src/assets/js/script.min.js"></script>
+  </body>
+</html>
