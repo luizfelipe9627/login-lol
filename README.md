@@ -7,8 +7,10 @@
 League of Legends é um jogo eletrônico do gênero multiplayer online battle arena desenvolvido e publicado pela Riot Games. Foi lançado em outubro de 2009 para Microsoft Windows e em março de 2013 para macOS.
 
 ## 📑 Observação
-Parte desse projeto foi criado junto ao <a href="https://www.youtube.com/c/ManualdoDev">Manual do Dev</a>.
+
 Projeto criado com o intuito de passar um pouco o tempo e também para praticar HTML5, CSS3 e JavaScript.
+<br>
+Parte desse projeto foi criado junto ao <a href="https://www.youtube.com/c/ManualdoDev">Manual do Dev</a>.
 
 ### <a href="https://luizfelipe9627-login-lol.netlify.app">Acesse o site</a>
 
